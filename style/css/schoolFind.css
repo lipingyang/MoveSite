@@ -1,0 +1,152 @@
+.middle{
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+}
+.top{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background-color: #439ef6;
+}
+.top .middle{
+   background: url(../img/whiteLogo.png) no-repeat left center;
+}
+.top .middle span{
+	display: inline-block;
+	float: right;
+	font-family: "microsoft yahei";
+	font-size: 17px;
+	margin-left: 20px;
+	color: #fff;
+}
+/*nav*/
+.nav{
+	width: 100%;
+	height: 190px;
+	margin-top: 10px;
+}
+.nav img{
+	width: 100%;
+	height: 100%;
+}
+/*当前位置*/
+.loction{
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;	
+}
+.loction .middle{
+	background-color: #f7f7f7;
+	font-size: 12px;
+	line-height: 40px;
+}
+.loction .middle span{
+	display: inline-block;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.lociton-now{
+	color: #3e9dfb;
+}
+/*搜索框*/
+.search{
+	margin-top: 20px;
+	width: 100%;
+	height: 30px;
+}
+.school-choose{
+	font-size: 16px;
+	font-family: "microsoft yahei";
+}
+.school-btn{
+	width: 200px;
+	height: 100%;
+}
+.school-btn input{
+	width: 149px;
+	height: 28px;
+	border: 1px solid #e8e8e8;
+	border-right: none;
+	padding-left: 10px;	
+}
+.school-btn-blue{
+	width: 40px;
+	height: 30px;
+	background-color: #3e9dfb;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+	cursor: pointer;
+}
+/*省份城市类型*/
+.choose{
+	width: 100%;
+	
+}
+.choose .middle{
+	border-bottom: 1px solid #e8e8e8;
+}
+.choose-ul{
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.choose-ul li{
+	float: left;
+	height: 30px;	
+    line-height: 30px;
+    font-size: 14px;
+}
+.style-hold{
+	margin-right: 10px;
+}
+.style-change{
+	width: 60px;
+	text-align: center;
+	margin-right: 10px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.blue{
+	background-color: #3e9dfb;
+	color: #fff;
+}
+/*学校图标*/
+.school-icon{
+	margin-bottom: 150px;
+}
+.icon{
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 20px;
+/*	background-color:yellow;*/
+	width: 1130px;
+}
+.icon li{
+	width: 131px;
+	min-height: 160px;
+	margin: 20px 15px 20px 15px;
+	float: left;
+	cursor: pointer;
+}
+.img-box{
+	width: 131px;
+	height: 130px;
+	background: #f2f2f5;
+	text-align: center;
+}
+.img-box img{
+	display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+.school-name{
+	display: inline-block;
+	width: 131px;
+	height: 30px;
+	font-size: 12px;
+	text-align: left;
+	line-height: 30px;
+}

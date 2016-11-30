@@ -1,0 +1,258 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*科e互联特效基本框架CSS*/
+
+body,
+ul,
+dl,
+dd,
+dt,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+textarea,
+form,
+select,
+fieldset,
+table,
+td,
+div,
+input {
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 12px;
+	font-weight: normal
+}
+
+body>div {
+	margin: 0 auto
+}
+
+div {
+	text-align: left
+}
+
+ul,
+ol,
+li {
+	list-style-type: none;
+	vertical-align: 0
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.f-12 {
+	font-size: 12px;
+}
+
+.f-14 {
+	font-size: 14px;
+}
+
+.f-15 {
+	font-size: 15px;
+}
+
+.f-30 {
+	font-size: 30px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+/*foot*/
+.foot{
+	width: 100%;
+	background-color: #132533;
+	color: #91a4b5;
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+}
+.school-btn input:focus{
+	outline: none;
+}
+
+/*遮罩层*/
+.school-black{
+	position: fixed;top: 0;left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .5;
+	filter:Alpha(opacity=50);
+	display: none;
+}
+.close{
+	width: 23px;
+	height: 23px;
+	background: url(../img/false.png);
+	position: absolute;
+	right: 20px;
+	cursor: pointer;
+}
+.school-white{
+	width: 710px;
+	padding-left: 60px;
+	height: 770px;
+	background-color: #fff;
+	position: absolute;
+	top: 100px;left: 50%;margin-left: -385px;
+	border-radius: 3px;
+	font-family: "microsoft yahei";
+	font-size: 18px;
+	display: none;
+}
+.school-white >div{
+	margin-top: 15px;
+}
+.school-white input{
+	height: 50px;
+	width: 260px;
+	padding-left: 10px;
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	border: 1px solid #e4e9ed;
+	border-radius: 3px;
+	margin-left: 15px;
+}
+.school-white input:focus{
+	border:1px solid #3498db;
+	box-shadow: 0 0 2px #3498db;
+}
+.school-white textarea{
+	width: 550px;
+	height: 120px;
+	resize: none;
+	padding: 10px;
+	font-size: 16px;
+	font-family: "microsoft yahei";	
+	margin-left: 20px;
+	border: 1px solid #e4e9ed;
+}
+.school-white textarea:focus{
+	border:1px solid #3498db;
+	box-shadow: 0 0 2px #3498db;
+}
+.gray-txt{
+	color: #7f8c8d;
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+	float: left;
+	line-height: 50px;
+}
+.add-logo{
+	width: 160px;
+	height: 120px;
+	border: 1px dashed #e4e9ed;
+	margin-left:100px;
+	background: url(../img/addLogo.png) no-repeat;
+	background-position: center 30px;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #7f8c8d;
+	text-align: center;
+	cursor: pointer;
+}
+.add-logo span{
+	display: inline-block;
+	margin-top: 60px;
+}
+.blue-btn{
+	height: 40px;
+	margin-left: 100px;
+	width: 220px;
+}
+.blue-btn div{
+	width: 100px;
+	height: 40px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.btn-sure{
+	background-color: #76b6f3;
+	color: #fff;
+}
+.btn-cancel{
+	background-color: #e4e9ed;
+}
+/*下拉菜单*/
+.menu{
+	width: 120px;
+	height: 50px;
+	padding-left: 10px;
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	border: 1px solid #e4e9ed;
+	border-radius: 3px;
+	margin-left: 15px;
+	display: inline-block;
+	margin-bottom: 15px;
+	position: relative;
+}
+.menu img{
+	width: 16px;
+	height: 8px;
+	float: right;
+	margin: 21px 10px 0 0;
+	cursor: pointer;
+}
+.menu-up{
+	display: none;
+}
+.menu-choose{
+	line-height: 50px;
+	color: #cbd0d3;
+}
+.menu ul{
+	position: absolute;top: 50px;left: -1px;
+	width: 130px;
+	line-height: 30px;
+	border-radius: 3px;
+	border: 1px solid #e4e9ed;
+	background-color: #fff;
+    display: none;
+    padding-bottom: 20px;
+}
+.menu ul li{
+	line-height: 30px;
+	margin-top: 10px;
+	cursor: pointer;
+	padding-left: 10px;
+}
+.menu ul li:hover{
+	background-color: #76b6f3;
+	color: #fff;
+}

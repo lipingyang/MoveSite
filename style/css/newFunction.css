@@ -1,0 +1,129 @@
+.middle{
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+}
+.top{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background-color: #439ef6;
+}
+.top .middle{
+   background: url(../img/whiteLogo.png) no-repeat left center;
+}
+.top .middle span{
+	display: inline-block;
+	float: right;
+	font-family: "microsoft yahei";
+	font-size: 17px;
+	margin-left: 20px;
+	color: #fff;
+}
+/*nav*/
+.nav{
+	width: 100%;
+	height: 190px;
+	margin-top: 10px;
+}
+.nav img{
+	width: 100%;
+	height: 100%;
+}
+.nav .middle{
+	position: relative;
+}
+.download-white{
+	width: 240px;
+	height: 140px;
+	position: absolute;top: 25px;left: 80px;
+	background-color: #fff;
+	opacity: .3;
+	filter:Alpha(opacity=30);
+	z-index: 1;
+}
+.download{
+	width: 240px;
+	height: 140px;
+	position: absolute;
+	top: 25px;
+	left: 80px;
+	z-index: 2;
+}
+.download div{
+	width: 120px;
+	height: 45px;
+	color: #fff;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	line-height: 45px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	padding-left: 50px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.download-android{	
+	margin:16px auto;
+	background-color: #f7983e;	
+	background-image: url(../img/android.png);	
+}
+.download-iphone{
+	margin: 0 auto;
+	background-color: #4add48;
+	background-image: url(../img/iphone.png);
+}
+/*内容部分*/
+.content{
+	width: 100%;
+	height:590px;
+	margin:  0 auto;
+	padding-top: 70px;
+}
+.content-left{
+	width: 880px;
+	height:525px;
+	background: url(../img/newFunction-left.png) no-repeat 100%;
+	margin: 0 auto;
+}
+.content-gray{
+	background-color: #f5f5f5;
+}
+.content-right{
+	width: 880px;
+	height:460px;
+	background: url(../img/newFunction-right.png) no-repeat 100%;
+	margin: 0 auto;
+}
+.content span{
+	display: inline-block;
+	font-family: "microsoft yahei";
+}
+.left-txt{
+	width: 340px;
+	height: 160px;
+	margin-left:490px;
+	padding-top: 160px;
+}
+.right-txt{
+	width: 360px;
+	height: 160px;
+	padding-top: 120px;
+}
+.left-main{
+	font-size: 24px;
+}
+.left-gray{
+	width: 340px;
+	font-size: 18px;
+	color: #647b83;
+	line-height: 30px;
+}
+.right-mian{
+	font-size: 24px;
+}
+.right-gray{
+	width: 340px;
+	font-size: 18px;
+	color: #647b83;
+}

@@ -1,0 +1,246 @@
+.middle{
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+}
+.top{
+	width: 100%;
+	height: 90px;
+}
+.top .middle{
+   background: url(../img/logo.png) no-repeat left center;
+}
+.top-txt{
+	display: inline-block;
+	float: right;
+	font-family: "microsoft yahei";
+	font-size: 17px;
+	margin-left: 20px;
+		line-height: 90px;
+}
+.top-txt-line{
+	color: #989898;
+}
+.top-btn-1{
+	font-size: 14px;
+	float: right;
+	width: 58px;
+	height: 28px;	
+	margin-left: 25px;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 30px;
+	cursor: pointer;
+	border-radius: 3px;
+	border:1px solid #30a5ff;
+	color: #30a5ff;
+}
+.top-btn-1:hover{
+	background-color: #36a8ff;
+	color: #fff;
+}
+.top-btn-2{
+	font-size: 14px;
+	float: right;
+	width: 60px;
+	height: 30px;
+	margin-left: 25px;
+	display: inline-block;
+	color: #36a8ff;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 30px;
+	cursor: pointer;
+	display: none;
+}
+.nav{
+	width: 100%;
+	min-width: 1100px;
+	height: 377px;
+	background: url(../img/nav.png) no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+}
+.nav-big{
+	font-family: "microsoft yahei";
+	font-size: 31px;
+	padding-top: 100px;
+}
+.nav-small{
+	font-family: "microsoft sans serif";
+	font-size-adjust: 21px;
+	padding-top: 20px;
+	width: 200px;
+	line-height: 25px;
+}
+.nav-btn{
+	width: 200px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 17px;
+	background-color: #0ce093;
+	text-align: center;
+	margin-top: 20px;
+	cursor: pointer;
+	font-family: "microsoft yahei";
+}
+/*加入智慧校园*/
+.join{
+	width: 100%;
+	height: 350px;
+}
+.content-title{
+	font-size: 24px;
+	font-family: "microsoft yahei";
+	text-align: center;
+	line-height:100px;
+	height: 100px;
+	background: url(../img/line.png) repeat-x center;
+	margin-top: 20px;
+}
+.content-title-span{
+	display: inline-block;
+	padding: 0 20px 0 20px;
+	background: #fff;"
+}
+.join-box li{
+	float: left;
+    height: 200px;
+    width: calc(100% / 7);
+    font-size: 16px;
+    text-align: center;
+    font-family: "microsoft yahei";  
+}
+.join-arrow{
+	background: url(../img/joinArrow.png) no-repeat center;
+}
+.join-one{
+	background: url(../img/joinOne.png) no-repeat center;
+}
+.join-two{
+	background: url(../img/joinTwo.png) no-repeat center;
+}
+.join-three{
+	background: url(../img/joinThree.png) no-repeat center;
+}
+.join-four{
+	background: url(../img/joinFour.png) no-repeat center;
+}
+.join-box span{
+	display: inline-block;
+	margin-top: 180px;
+}
+/*定制化校园*/
+.customization{
+	width: 100%;
+	height: 400px;
+	background-color: #fafafa;
+}
+.customization-box li{
+	width: 330px;
+	height: 100px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.customization-box li:hover{
+	background-color: #f2f2f2;
+}
+.customization-box div{
+	width: 230px;
+}
+.marRight-55{
+	margin-right: 55px;
+}
+.customization-box img{
+	width: 76px;
+	height: 76px;
+	display: inline-block;
+	margin: 12px 0 0 12px;
+	float: left;
+}
+.custom-big{
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	margin-top: 16px;
+}
+.custom-gray{
+	font-size: 14px;
+	color: #757575;
+	line-height: 20px;
+	margin-top: 5px;
+	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+/*多数学校满意之选*/
+.pleased{
+	width: 100%;
+	margin-bottom: 150px;
+}
+.pleased-box{
+	overflow: hidden;
+}
+.pleased-box li{
+	width: 500px;
+	height: 170px;
+	margin-bottom: 50px;
+}
+.school-logo{
+	width: 90px;
+	height: 90px;
+}
+.school-name{
+	width: 400px;
+	height: 100%;
+}
+.name-first{
+	font-size: 20px;
+	font-family: "microsoft yahei";
+}
+.name-second{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #5c5c5c;
+	margin: 10px 0 5px 0;
+}
+.name-third{
+	color: #b2b2b2;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	margin-top: 8px;
+}
+.name-btn{
+	width: 90px;
+	height: 30px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	background-color: #76b6f3;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.check-more{
+	width: 250px;
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid #76b6f3;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	color: #76b6f3;
+	margin:  0 auto;
+	cursor: pointer;
+}
+.check-more:hover{
+	background: #76b6f3;
+	color: #fff;
+}

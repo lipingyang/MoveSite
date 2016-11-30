@@ -1,0 +1,128 @@
+.middle{
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+}
+.top{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background-color: #439ef6;
+}
+.top .middle{
+   background: url(../img/whiteLogo.png) no-repeat left center;
+}
+.top .middle span{
+	display: inline-block;
+	float: right;
+	font-family: "microsoft yahei";
+	font-size: 17px;
+	margin-left: 20px;
+	color: #fff;
+}
+/*nav*/
+.nav{
+	width: 100%;
+	height: 190px;
+	margin-top: 10px;
+}
+.nav img{
+	width: 100%;
+	height: 100%;
+}
+/*当前位置*/
+.loction{
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;	
+}
+.loction .middle{
+	background-color: #f7f7f7;
+	font-size: 12px;
+	line-height: 40px;
+}
+.loction .middle span{
+	display: inline-block;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.lociton-now{
+	color: #3e9dfb;
+}
+/*学校简介*/
+.brief{
+	width: 100%;
+	min-height: 240px;
+	overflow: hidden;
+}
+.blue-txt{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #d7d7d7;
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	margin-top: 25px;
+}
+.blue-txt span{
+	display: inline-block;
+	height: 26px;
+	width: 100px;
+	border-bottom: 4px solid #439ef6;
+}
+.brief-content{
+/*	height: 130px;*/
+	width: 100%;
+	margin-top: 45px;
+	background-color: yellowgreen;
+}
+.brief-content-right{
+	height: 100%;
+	width: 910px;
+}
+.brief-content-right span{
+	display: inline-block;
+	font-size: 12px;
+	line-height: 25px;
+	text-indent: 24px;
+}
+/*移动化一览*/
+.mobil-ul{
+	margin-bottom: 90px;
+}
+.mobil-ul li{
+	width: 100%;
+	min-height: 130px;
+	margin-top: 30px;
+	overflow: hidden;	
+}
+.mobil-left img{
+	width: 180px;
+	height: 130px;
+}
+.mobil-right{
+	height: 100%;
+	width:900px;
+    font-size: 14px;
+}
+.right-one span{
+	color: #666666;
+	display: inline-block;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+.right-two span{
+	display: inline-block;
+	margin-right: 50px;
+	margin-top: 5px;
+}
+.right-three{
+	margin-top: 15px;
+	color: #666666;
+}
+.right-four span{
+	display: inline-block;
+	text-indent: 28px;
+	line-height: 25px;
+	color: #666666;
+	font-size: 12px;
+}
